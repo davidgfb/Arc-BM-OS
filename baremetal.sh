@@ -47,10 +47,10 @@ function baremetal_setup {
   	#9b7a8d3e76a578f0215a04b1cfa4701cb8a46fa1 #feb 3
 	cd ..
  
-	cd BareMetal
- 	git checkout fd546f459d292b1b400747ad73e9755f658ce191 #feb 2 
+	#cd BareMetal
+ 	#git checkout fd546f459d292b1b400747ad73e9755f658ce191 #feb 2 
   	#740ac45dc079bc2944f15cbdfb7f29ad6a344d62 #feb 4
-	cd ..
+	#cd ..
 
 	cd ..
 	echo "OK"
