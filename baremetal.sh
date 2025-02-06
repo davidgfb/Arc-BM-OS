@@ -42,10 +42,9 @@ function baremetal_setup {
 		git clone https://github.com/ReturnInfinity/$repo.git -q
 	done
  
-	#cd Pure64
- 	#git checkout 913fb9f76c1ec96e1898904d90f780b35e8d59f8 #feb 2
-  	#git checkout 9b7a8d3e76a578f0215a04b1cfa4701cb8a46fa1 #feb 3
-	#cd ..
+	cd Pure64
+ 	git checkout 913fb9f76c1ec96e1898904d90f780b35e8d59f8 #feb 2 FUNCIONA, feb 3 ROTO
+	cd ..
 
 	cd ..
 	echo "OK"
