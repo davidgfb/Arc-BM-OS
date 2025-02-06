@@ -43,14 +43,9 @@ function baremetal_setup {
 	done
  
 	cd Pure64
- 	git checkout 913fb9f76c1ec96e1898904d90f780b35e8d59f8 #feb 2
-  	#9b7a8d3e76a578f0215a04b1cfa4701cb8a46fa1 #feb 3
+ 	#git checkout 913fb9f76c1ec96e1898904d90f780b35e8d59f8 #feb 2
+  	git checkout 9b7a8d3e76a578f0215a04b1cfa4701cb8a46fa1 #feb 3
 	cd ..
- 
-	#cd BareMetal
- 	#git checkout fd546f459d292b1b400747ad73e9755f658ce191 #feb 2 
-  	#740ac45dc079bc2944f15cbdfb7f29ad6a344d62 #feb 4
-	#cd ..
 
 	cd ..
 	echo "OK"
