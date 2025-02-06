@@ -36,7 +36,15 @@ function baremetal_setup {
 	echo -n "Pulling code from GitHub... "
 	cd src
 	git clone https://github.com/ReturnInfinity/Pure64.git -q
+	cd Pure64
+ 	git checkout 9b7a8d3e76a578f0215a04b1cfa4701cb8a46fa1
+	cd ..
+ 
 	git clone https://github.com/ReturnInfinity/BareMetal.git -q
+	cd BareMetal
+ 	git checkout 740ac45dc079bc2944f15cbdfb7f29ad6a344d62
+	cd ..
+ 
 	git clone https://github.com/ReturnInfinity/BareMetal-Monitor.git -q
 	git clone https://github.com/ReturnInfinity/BMFS.git -q
 	git clone https://github.com/ReturnInfinity/BareMetal-Demo.git -q
